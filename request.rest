@@ -15,3 +15,6 @@ Content-Type: application/json
     "solusi": "cek kodemu, mungkin ada variabel yang belum kamu deklrasikan"
 }
 
+
+###
+DELETE https://temanngoding-backend-production.up.railway.app/data/63da95bf3c85808762a876cb

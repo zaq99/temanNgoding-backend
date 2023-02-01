@@ -19,20 +19,5 @@ const db = new Sequelize(DB_URI, {
 });
 // // ------------------- mongodb
 
-// const connectDB = async () => {
-//     try {
-//         await mongoose.connect(DB_URI, {
-//             useNewUrlParser: true,
-//             useUnifiedTopology: true,
-//         });
-
-//         console.log("MongoDB Connected...");
-//     } catch (err) {
-//         console.error(err.message);
-//         // Exit process with failure
-//         process.exit(1);
-//     }
-// };
-
 export default db;
 // export lalu buat database pada xampp
