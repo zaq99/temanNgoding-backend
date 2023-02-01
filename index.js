@@ -12,10 +12,13 @@ const app = express();
 // app.use(UserRoute);
 
 // ------------------------- mongodb
-mongoose.connect("mongodb://localhost:27017/solusi_db", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+mongoose.connect(
+    "mongodb://mongo:YX8HzpU0p1kmX8Doedy0@containers-us-west-172.railway.app:5496",
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    }
+);
 
 const db = mongoose.connection;
 db.on("error", (error) => console.log(error));
