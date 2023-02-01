@@ -8,9 +8,10 @@ POST http://localhost:5000/data
 Content-Type: application/json
 
 {
-    "name": "Mohammad Rozakul",
+    "name": "zaq",
     "bahasa": "Javascript",
     "error" : "not defind",
     "penyebab": "ada variabel yang tidak di definisikan",
     "solusi": "cek kodemu, mungkin ada variabel yang belum kamu deklrasikan"
 }
+
