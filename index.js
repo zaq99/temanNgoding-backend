@@ -13,7 +13,7 @@ const app = express();
 
 // ------------------------- mongodb
 mongoose.connect(
-    "mongodb://mongo:YX8HzpU0p1kmX8Doedy0@containers-us-west-172.railway.app:5496",
+    "mongodb://mongo:5izupw6WiBwwv3BuzoLu@containers-us-west-39.railway.app:7691",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
