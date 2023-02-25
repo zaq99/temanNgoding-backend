@@ -4,6 +4,10 @@ GET http://localhost:5000/data
 GET http://localhost:5000/data/1
 
 ###
+GET https://temanngoding-backend-production.up.railway.app/data/
+
+
+###
 POST http://localhost:5000/data
 Content-Type: application/json
 
